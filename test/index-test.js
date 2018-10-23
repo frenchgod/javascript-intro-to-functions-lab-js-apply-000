@@ -52,7 +52,7 @@ function sayHiToGrandma(string) {
   return string.toLowerCase() 
 }
 
-if ( sayHiToGrandma.toLowerCase === "hello") {
+if ( sayHiToGrandma.toLowerCase() === "hello") {
 return "I can't hear you"
 }
 
