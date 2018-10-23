@@ -51,8 +51,9 @@ describe('logWhisper(string)', function() {
 function sayHiToGrandma(string) {
   return string.toLowerCase() 
 }
-if (
-
+if ( sayHiToGrandma.toLowerCase) {
+return "I can't hear you"
+}
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
