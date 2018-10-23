@@ -1,5 +1,4 @@
-function sayHiToGrandma(string) {
-if (string.toLowerCase() == "hello"){
-      return "I can't hear you!" 
+function shout(string) {
+  return string.toUpperCase()
 }
-}
+
