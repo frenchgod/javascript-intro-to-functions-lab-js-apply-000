@@ -49,10 +49,10 @@ describe('logWhisper(string)', function() {
 })
 
 function sayHiToGrandma(string) {
-if (sayHiToGrandma.toLowerCase()) == "hello"{
+if (string.toLowerCase() == "hello"){
       return "I can't hear you!" 
 }
-else (sayHiToGrandma.toUpperCase()) == "HELLO"{
+else (string.toUpperCase() == "HELLO"){
   return "hello"
 }
 }
